@@ -62,3 +62,14 @@ User * randUser(){
     return user;
 }
 
+int getUserById(UserArray * userArray, int id){
+    for (int i = 0; i < userArray->NumOfUsers; ++i) {
+        if(userArray->Users[i]->Id == id){
+            return i;
+        }
+    }
+    printf("Nincs ilyen Id-n levo User");
+    return -1;
+}
+
+

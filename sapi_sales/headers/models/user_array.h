@@ -21,6 +21,7 @@ void clearUsers(UserArray *userArray); // ✅
 bool addNewUser(UserArray *userArray, User* newUser); // ✅
 User* getUserAtPosition(UserArray * userArray, int position); // ✅
 
+int getUserById(UserArray * userArray, int id);
 
 User * randUser(); // ✅
 
