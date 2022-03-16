@@ -1,9 +1,15 @@
 #ifndef DTS_USER_H
 #define DTS_USER_H
 
+#include "errors.h"
+#include "messages.h"
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
+
 
 typedef struct
 {
@@ -55,13 +61,25 @@ void setUserData(
         char *Name,
         enum Type type,
         enum Gender gender,
-        enum Specialization stearate,
-        int birthYear,
-        int birthMonth,
-        int birthDay);
+        enum Specialization stearate);
 
 void printUser(User *user, char *destination);
 
 void deleteUser(User **user);
 
+
+// Plus functions
+
+int randYear();
+int randMonth();
+int randDay();
+
+int randType();
+int randSpec();
+int randGen();
+char *randName();
+
+
 #endif //DTS_USER_H
+
+

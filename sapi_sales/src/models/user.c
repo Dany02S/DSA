@@ -2,6 +2,7 @@
 
 int numberOfUsers = 0;
 
+
 // Getters ⬅️
 
 char *getUserType(enum Type type)
@@ -64,17 +65,19 @@ void createUser(User **user){
 
 void deleteUser(User **user){
     free(*user);
+    *user = NULL;
 }
 
-void setUserData(User *user, char *name, enum Type type, enum Gender gender, enum Specialization specialization, int birthYear, int birthMonth, int birthDay){
+void setUserData(User *user, char *name, enum Type type, enum Gender gender, enum Specialization specialization){
+//    int birthYear, int birthMonth, int birthDay
     user->Id = ++numberOfUsers;
     strcpy(user->Name, name);
     user->type = type;
     user->gender = gender;
     user->specialization = specialization;
-    user->date.birthDay = birthDay;
-    user->date.birthMonth = birthMonth;
-    user->date.birthYear = birthYear;
+    user->date.birthDay = randDay();
+    user->date.birthMonth = randMonth();
+    user->date.birthYear = randYear();
 }
 
 
@@ -100,3 +103,41 @@ void printUser(User *user, char *destination)
 
     freopen(destination, "w", stdout);
 }
+
+// Plus functions
+
+int randYear(){
+    srand(time(NULL));
+    return (rand() % (2016 - 1960 + 1)) + 1960;
+}
+
+int randMonth(){
+    srand(time(NULL));
+    return (rand() % (12 - 1 + 1)) + 1;
+}
+
+int randDay(){
+    srand(time(NULL));
+    return (rand() % (31 - 1 + 1)) + 1;
+}
+
+int randType(){
+    srand(time(NULL));
+    return rand() % 2;
+}
+
+int randGen(){
+    srand(time(NULL));
+    return rand() % 2;
+}
+
+int randSpec(){
+    srand(time(NULL));
+    return rand() % 5;
+}
+
+char *randName(){
+    static char names[][20] = {"Dani", "Peti", "Robi", "Bernad", "Mark"};
+    return names[rand()% 5];
+}
+

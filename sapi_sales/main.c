@@ -1,7 +1,8 @@
 
-#include "lab2.h"
+#include "lab_manager.h"
 
 int main() {
-    testUserFunctionalities();
+    srand(time(NULL));
+    lab3();
     return 0;
 }

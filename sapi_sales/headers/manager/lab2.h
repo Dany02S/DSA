@@ -5,8 +5,10 @@
 #ifndef DTS_LAB2_H
 #define DTS_LAB2_H
 
-#include "../models/user.h"
+#include "user.h"
+#include "product.h"
 
 void testUserFunctionalities();
+void testProductFunctionalities();
 
 #endif //DTS_LAB2_H
