@@ -17,7 +17,7 @@ void createProductStack (ProductStack **productStack, unsigned int capacity){
 
 void push(ProductStack *productStack, Product *product){
     if(productStack->top < productStack->capacity){
-        productStack->products = realloc(productStack->products, productStack->top * sizeof (Product));
+        productStack->products = realloc(productStack->products, productStack->top + 1 * sizeof (Product));
         productStack->products[productStack->top] = product;
         productStack->top++;
     }
@@ -26,15 +26,17 @@ void push(ProductStack *productStack, Product *product){
 
 void pop(ProductStack *productStack){
     free(productStack->products[productStack->top]);
-    productStack->products[productStack->top] = NULL;
-    productStack->top--;
+    productStack->products[productStack->top - 1] = NULL;
+    if(productStack->top > 0) {
+        productStack->top--;
+    }
 }
 
 Product* top (ProductStack *productStack){
     if(stackIsEmpty(productStack)){
         return NULL;
     }
-    return productStack->products[productStack->top];
+    return productStack->products[productStack->top - 1];
 }
 
 bool stackIsEmpty (ProductStack *productStack){
@@ -45,7 +47,7 @@ bool stackIsEmpty (ProductStack *productStack){
 }
 
 bool stackIsFull (ProductStack *productStack){
-    if(productStack->top >= productStack->capacity){
+    if(productStack->top - 1 >= productStack->capacity){
         return true;
     }
     return false;
@@ -60,6 +62,21 @@ void deleteProductStack(ProductStack **productStack){
     (*productStack)->products = NULL;
     free(*productStack);
     *productStack = NULL;
+}
+
+// 🎲
+Product * randProduct(){
+    Product *product;
+    createProduct(&product);
+    setProductData(product,
+                   rand() % 10,
+                   "abcdefghijk",
+                   "name",
+                   rand() % 3,
+                   rand() % 100,
+                   1000
+                   );
+    return product;
 }
 
 

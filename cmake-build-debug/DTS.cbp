@@ -25,6 +25,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DTS/sapi_sales/headers/manager"/>
+					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DTS/sapi_sales/headers/stack"/>
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DTS/sapi_sales/headers/models"/>
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DTS/shared/headers"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
@@ -47,6 +48,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DTS/sapi_sales/headers/manager"/>
+					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DTS/sapi_sales/headers/stack"/>
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DTS/sapi_sales/headers/models"/>
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DTS/shared/headers"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>

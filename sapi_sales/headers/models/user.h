@@ -48,36 +48,25 @@ typedef struct User
     enum Gender gender;
     Date date;
 
-} User;
+} User; // ✅
 
-char *getUserType(enum Type type);
-char *getGender(enum Gender type);
-char *getSpecialization(enum Specialization type);
+char *getUserType(enum Type type); // ✅
+char *getGender(enum Gender type); // ✅
+char *getSpecialization(enum Specialization type); // ✅
 
-void createUser(User **user);
+void createUser(User **user); // ✅
 
 void setUserData(
         User *user,
         char *Name,
         enum Type type,
         enum Gender gender,
-        enum Specialization stearate);
+        enum Specialization stearate); // ✅
 
-void printUser(User *user, char *destination);
+void printUser(User *user, char *destination); // ✅
+void deleteUser(User **user); // ✅
 
-void deleteUser(User **user);
-
-
-// Plus functions
-
-int randYear();
-int randMonth();
-int randDay();
-
-int randType();
-int randSpec();
-int randGen();
-char *randName();
+char *randName(); // ➕✅
 
 
 #endif //DTS_USER_H

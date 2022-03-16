@@ -15,3 +15,7 @@ void lab3(){
 //    testUserFunctionalitiesIII();
     testUserArrayFunctionalities();
 }
+
+void lab5(){
+    product_stack_proba();
+}

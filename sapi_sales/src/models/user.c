@@ -75,9 +75,9 @@ void setUserData(User *user, char *name, enum Type type, enum Gender gender, enu
     user->type = type;
     user->gender = gender;
     user->specialization = specialization;
-    user->date.birthDay = randDay();
-    user->date.birthMonth = randMonth();
-    user->date.birthYear = randYear();
+    user->date.birthDay = (rand() % (31 - 1 + 1)) + 1;
+    user->date.birthMonth = (rand() % (12 - 1 + 1)) + 1;
+    user->date.birthYear = (rand() % (2016 - 1960 + 1)) + 1960;
 }
 
 
@@ -104,40 +104,13 @@ void printUser(User *user, char *destination)
     freopen(destination, "w", stdout);
 }
 
-// Plus functions
-
-int randYear(){
-    srand(time(NULL));
-    return (rand() % (2016 - 1960 + 1)) + 1960;
-}
-
-int randMonth(){
-    srand(time(NULL));
-    return (rand() % (12 - 1 + 1)) + 1;
-}
-
-int randDay(){
-    srand(time(NULL));
-    return (rand() % (31 - 1 + 1)) + 1;
-}
-
-int randType(){
-    srand(time(NULL));
-    return rand() % 2;
-}
-
-int randGen(){
-    srand(time(NULL));
-    return rand() % 2;
-}
-
-int randSpec(){
-    srand(time(NULL));
-    return rand() % 5;
-}
-
 char *randName(){
-    static char names[][20] = {"Dani", "Peti", "Robi", "Bernad", "Mark"};
-    return names[rand()% 5];
+    static char names[][20] = {"Dani", "Peti", "Robi", "Bernad", "Mark",
+                               "Lori", "Feri", "Zalan", "Zoltan", "Roland",
+                               "Orsi", "Timi", "Reka", "Kincso", "Csenge",
+                               "Andi", "Lara", "Vivien", "Franciska", "Fruzsina"};
+    return names[rand()% 20];
 }
+
+
 

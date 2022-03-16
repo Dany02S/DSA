@@ -18,10 +18,8 @@ void testUserArrayFunctionalities(){
 
     createUserArray(&userArray, 3);
 
-    addNewUser(userArray, randUser());
-    addNewUser(userArray, randUser());
-    addNewUser(userArray, randUser());
     for (int i = 0; i < 3 ; ++i) {
+        addNewUser(userArray, randUser());
         printUser(getUserAtPosition(userArray, i), "CON");
     }
 

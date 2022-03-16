@@ -6,6 +6,7 @@
 #define MAIN_C_PRODUCT_STACK_H
 
 #include "product.h"
+#include <stdbool.h>
 
 typedef struct {
     unsigned int capacity;
@@ -22,6 +23,7 @@ bool stackIsEmpty (ProductStack *productStack);
 bool stackIsFull(ProductStack *productStack);
 void deleteProductStack(ProductStack **productStack);
 
+Product *randProduct();
 
 
 #endif //MAIN_C_PRODUCT_STACK_H

@@ -24,11 +24,8 @@ void clearUsers(UserArray *userArray){
 
 // +🧑
 bool addNewUser(UserArray *userArray, User* newUser){
-    printf("%i\n", userArray->NumOfUsers);
-    printf("%i", userArray->Capacity);
     if(userArray->NumOfUsers < userArray->Capacity) {
         userArray->Users = realloc(userArray->Users, ((userArray->NumOfUsers) + 1) * sizeof(User));
-        printf("%i", userArray->Capacity);
         userArray->Users[userArray->NumOfUsers] = newUser;
         userArray->NumOfUsers++;
         printf("Num of users is: %i\n", userArray->NumOfUsers);
@@ -58,7 +55,11 @@ User* getUserAtPosition(UserArray * userArray, int position){
 User * randUser(){
     User *user;
     createUser(&user);
-    setUserData(user, randName(),randType(),randGen(),randSpec());
+    setUserData(user,
+                randName(),
+                rand() % 2,
+                rand() % 2,
+                rand() % 6);
     return user;
 }
 
