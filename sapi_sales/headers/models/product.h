@@ -38,8 +38,7 @@ void setProductData(
         char *Code,
         char *name,
         enum PType type,
-        int amount,
-        time_t timestamp
+        int amount
         );
 
 void printProduct(Product *product, char *destination);

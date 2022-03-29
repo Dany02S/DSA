@@ -7,9 +7,11 @@
 
 
 void product_stack_proba(){
+
     ProductStack *productStack;
     createProductStack(&productStack, 10);
-    int choice, i = 0;
+
+    int choice;
     while (1) {
         printf("\n\n1. Push Operation\n");
         printf("2. Pop Operation\n");
@@ -26,15 +28,15 @@ void product_stack_proba(){
 
             case 4: {
                 if(stackIsEmpty(productStack)){
-                    printf("It's empty");
+                    printf("\nIt's empty");
                 }else{
-                    printf("It has %i elements", productStack->top);
+                    printf("\nIt has %i element", productStack->top);
                 }; break;}
 
             case 5: {if(stackIsFull(productStack)){
-                    printf("It's full");
+                    printf("\nIt's full");
             }else{
-                    printf("It has %i more space free", productStack->capacity - productStack->top);
+                    printf("\n%i space left", productStack->capacity - productStack->top);
             } break;}
 
             case 6: {deleteProductStack(&productStack); exit(0);}

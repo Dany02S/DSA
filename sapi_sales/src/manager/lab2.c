@@ -35,8 +35,8 @@ void testProductFunctionalities(){
     createProduct(&prod1);
     createProduct(&prod2);
 
-    setProductData(prod1, 1, "001", "Apple", Food,5,16666666);
-    setProductData(prod2, 2, "002", "Pencil", School,2,17666666);
+    setProductData(prod1, 1, "001", "Apple", Food,5);
+    setProductData(prod2, 2, "002", "Pencil", School,2);
 
     printProduct(prod1, "CON");
     printProduct(prod2, "CON");

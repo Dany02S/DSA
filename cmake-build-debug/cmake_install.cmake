@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Dani/OneDrive/Documents/Sapi/DTS
+# Install script for directory: C:/Users/Dani/OneDrive/Documents/Sapi/DSA
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Dani/OneDrive/Documents/Sapi/DTS/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Dani/OneDrive/Documents/Sapi/DSA/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

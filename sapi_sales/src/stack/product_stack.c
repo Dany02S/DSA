@@ -7,36 +7,34 @@
 
 void createProductStack (ProductStack **productStack, unsigned int capacity){
     *productStack = (ProductStack*) malloc(sizeof (ProductStack));
-    (*productStack)->products = calloc(capacity, sizeof (Product));
-    for (int i = 0; i < capacity; ++i) {
-        createProduct(&(*productStack)->products[i]);
-    }
+    (*productStack)->products = (Product**)malloc(capacity* sizeof (Product*));
     (*productStack)->capacity = capacity;
-    (*productStack)->top = 1;
+    (*productStack)->top = 0;
 }
 
 void push(ProductStack *productStack, Product *product){
     if(productStack->top < productStack->capacity){
-        productStack->products = realloc(productStack->products, productStack->top + 1 * sizeof (Product));
-        productStack->products[productStack->top] = product;
         productStack->top++;
+        productStack->products[productStack->top] = product;
     }
-
 }
 
 void pop(ProductStack *productStack){
-    free(productStack->products[productStack->top]);
-    productStack->products[productStack->top - 1] = NULL;
     if(productStack->top > 0) {
+        free(productStack->products[productStack->top]);
+        productStack->products[productStack->top] = NULL;
         productStack->top--;
+    }else{
+        printf("\nEmpty stack!");
     }
 }
 
 Product* top (ProductStack *productStack){
     if(stackIsEmpty(productStack)){
+        printf("\nEmpty stack!");
         return NULL;
     }
-    return productStack->products[productStack->top - 1];
+    return productStack->products[productStack->top];
 }
 
 bool stackIsEmpty (ProductStack *productStack){
@@ -47,7 +45,7 @@ bool stackIsEmpty (ProductStack *productStack){
 }
 
 bool stackIsFull (ProductStack *productStack){
-    if(productStack->top - 1 >= productStack->capacity){
+    if(productStack->top  >= productStack->capacity){
         return true;
     }
     return false;
@@ -73,8 +71,7 @@ Product * randProduct(){
                    "abcdefghijk",
                    "name",
                    rand() % 3,
-                   rand() % 100,
-                   1000
+                   rand() % 100
                    );
     return product;
 }
