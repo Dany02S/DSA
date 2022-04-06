@@ -200,6 +200,30 @@ sapi_sales/src/manager/lab3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/src/manager/lab3.c.s
 .PHONY : sapi_sales/src/manager/lab3.c.s
 
+sapi_sales/src/manager/lab8.obj: sapi_sales/src/manager/lab8.c.obj
+.PHONY : sapi_sales/src/manager/lab8.obj
+
+# target to build an object file
+sapi_sales/src/manager/lab8.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/src/manager/lab8.c.obj
+.PHONY : sapi_sales/src/manager/lab8.c.obj
+
+sapi_sales/src/manager/lab8.i: sapi_sales/src/manager/lab8.c.i
+.PHONY : sapi_sales/src/manager/lab8.i
+
+# target to preprocess a source file
+sapi_sales/src/manager/lab8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/src/manager/lab8.c.i
+.PHONY : sapi_sales/src/manager/lab8.c.i
+
+sapi_sales/src/manager/lab8.s: sapi_sales/src/manager/lab8.c.s
+.PHONY : sapi_sales/src/manager/lab8.s
+
+# target to generate assembly for a file
+sapi_sales/src/manager/lab8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/src/manager/lab8.c.s
+.PHONY : sapi_sales/src/manager/lab8.c.s
+
 sapi_sales/src/manager/lab_5.obj: sapi_sales/src/manager/lab_5.c.obj
 .PHONY : sapi_sales/src/manager/lab_5.obj
 
@@ -344,6 +368,30 @@ sapi_sales/src/models/user_array.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/src/models/user_array.c.s
 .PHONY : sapi_sales/src/models/user_array.c.s
 
+sapi_sales/src/queue/user_queue.obj: sapi_sales/src/queue/user_queue.c.obj
+.PHONY : sapi_sales/src/queue/user_queue.obj
+
+# target to build an object file
+sapi_sales/src/queue/user_queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/src/queue/user_queue.c.obj
+.PHONY : sapi_sales/src/queue/user_queue.c.obj
+
+sapi_sales/src/queue/user_queue.i: sapi_sales/src/queue/user_queue.c.i
+.PHONY : sapi_sales/src/queue/user_queue.i
+
+# target to preprocess a source file
+sapi_sales/src/queue/user_queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/src/queue/user_queue.c.i
+.PHONY : sapi_sales/src/queue/user_queue.c.i
+
+sapi_sales/src/queue/user_queue.s: sapi_sales/src/queue/user_queue.c.s
+.PHONY : sapi_sales/src/queue/user_queue.s
+
+# target to generate assembly for a file
+sapi_sales/src/queue/user_queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/src/queue/user_queue.c.s
+.PHONY : sapi_sales/src/queue/user_queue.c.s
+
 sapi_sales/src/stack/product_stack.obj: sapi_sales/src/stack/product_stack.c.obj
 .PHONY : sapi_sales/src/stack/product_stack.obj
 
@@ -434,6 +482,9 @@ help:
 	@echo ... sapi_sales/src/manager/lab3.obj
 	@echo ... sapi_sales/src/manager/lab3.i
 	@echo ... sapi_sales/src/manager/lab3.s
+	@echo ... sapi_sales/src/manager/lab8.obj
+	@echo ... sapi_sales/src/manager/lab8.i
+	@echo ... sapi_sales/src/manager/lab8.s
 	@echo ... sapi_sales/src/manager/lab_5.obj
 	@echo ... sapi_sales/src/manager/lab_5.i
 	@echo ... sapi_sales/src/manager/lab_5.s
@@ -452,6 +503,9 @@ help:
 	@echo ... sapi_sales/src/models/user_array.obj
 	@echo ... sapi_sales/src/models/user_array.i
 	@echo ... sapi_sales/src/models/user_array.s
+	@echo ... sapi_sales/src/queue/user_queue.obj
+	@echo ... sapi_sales/src/queue/user_queue.i
+	@echo ... sapi_sales/src/queue/user_queue.s
 	@echo ... sapi_sales/src/stack/product_stack.obj
 	@echo ... sapi_sales/src/stack/product_stack.i
 	@echo ... sapi_sales/src/stack/product_stack.s

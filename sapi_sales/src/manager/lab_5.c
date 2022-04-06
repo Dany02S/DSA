@@ -40,7 +40,7 @@ void product_stack_proba(){
             } break;}
 
             case 6: {deleteProductStack(&productStack); exit(0);}
-            default:printf("Incorrect choice \n");
+            default:printf("\nIncorrect choice!");
         }
     }
 }

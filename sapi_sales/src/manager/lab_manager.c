@@ -19,3 +19,7 @@ void lab3(){
 void lab5(){
     product_stack_proba();
 }
+
+void lab8(){
+    testUserQueueFunctionalities();
+}
