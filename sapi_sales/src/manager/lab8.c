@@ -14,8 +14,6 @@ void testUserQueueFunctionalities(){
     enqueue(userQueue, randUser());
     enqueue(userQueue, randUser());
 
-    printf("%i", userQueue->rear);
-
     if(queueIsFull(userQueue)){
         printf("FUll");
     }

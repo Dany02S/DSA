@@ -28,4 +28,7 @@ int findElementInQueue(UserQueue* userQueue, int userId);
 void printQueue(UserQueue* userQueue, char*destination);
 void deleteQueue(UserQueue** userQueue);
 
+int findElementInQueueByUser(UserQueue* userQueue, User user);
+bool userComp(User user1, User user2);
+
 #endif //MAIN_C_USER_QUEUE_H

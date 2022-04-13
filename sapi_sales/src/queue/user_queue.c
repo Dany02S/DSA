@@ -51,6 +51,31 @@ int findElementInQueue(UserQueue* userQueue, int userId){
     return -1;
 }
 
+bool userComp(User user1, User user2){
+    if(
+    user1.Id == user2.Id &&
+    strcmp(user2.Name, user1.Name) == 0 &&
+    user1.gender == user2.gender &&
+    user2.specialization == user1.specialization &&
+    user1.type == user2.type &&
+    user1.date.birthDay == user2.date.birthDay &&
+    user1.date.birthYear == user2.date.birthYear &&
+    user1.date.birthMonth == user2.date.birthMonth
+    ){
+        return true;
+    }
+    return false;
+}
+
+int findElementInQueueByUser(UserQueue* userQueue, User user){
+    for (int i = userQueue->front; i < userQueue->rear; ++i) {
+        if(userComp(*userQueue->users[i], user)){
+            user.Id;
+        }
+    }
+    return -1;
+}
+
 void printQueue(UserQueue* userQueue, char*destination){
     for (int i = userQueue->front; i < userQueue->rear; ++i) {
         printUser(userQueue->users[i], destination);
