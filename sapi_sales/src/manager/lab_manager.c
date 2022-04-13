@@ -21,5 +21,10 @@ void lab5(){
 }
 
 void lab8(){
-    testUserQueueFunctionalities();
+//    testUserQueueFunctionalities();
+
+}
+
+void lab9(){
+    testUserList();
 }

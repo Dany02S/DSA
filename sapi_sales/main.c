@@ -3,6 +3,6 @@
 
 int main() {
     srand(time(NULL));
-    lab8();
+    lab9();
     return 0;
 }

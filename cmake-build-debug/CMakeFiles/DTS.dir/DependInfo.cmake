@@ -9,9 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/main.c" "CMakeFiles/DTS.dir/sapi_sales/main.c.obj" "gcc" "CMakeFiles/DTS.dir/sapi_sales/main.c.obj.d"
+  "C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/src/list/user_list.c" "CMakeFiles/DTS.dir/sapi_sales/src/list/user_list.c.obj" "gcc" "CMakeFiles/DTS.dir/sapi_sales/src/list/user_list.c.obj.d"
   "C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/src/manager/lab2.c" "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab2.c.obj" "gcc" "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab2.c.obj.d"
   "C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/src/manager/lab3.c" "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab3.c.obj" "gcc" "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab3.c.obj.d"
   "C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/src/manager/lab8.c" "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab8.c.obj" "gcc" "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab8.c.obj.d"
+  "C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/src/manager/lab9.c" "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab9.c.obj" "gcc" "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab9.c.obj.d"
   "C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/src/manager/lab_5.c" "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab_5.c.obj" "gcc" "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab_5.c.obj.d"
   "C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/src/manager/lab_manager.c" "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab_manager.c.obj" "gcc" "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab_manager.c.obj.d"
   "C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/src/models/product.c" "CMakeFiles/DTS.dir/sapi_sales/src/models/product.c.obj" "gcc" "CMakeFiles/DTS.dir/sapi_sales/src/models/product.c.obj.d"

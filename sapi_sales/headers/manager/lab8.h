@@ -6,6 +6,7 @@
 #define MAIN_C_LAB8_H
 
 #include "user_queue.h"
+#include "user_list.h"
 
 void testUserQueueFunctionalities();
 
