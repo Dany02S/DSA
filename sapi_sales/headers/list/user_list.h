@@ -15,11 +15,11 @@ typedef struct UserNode {
 
 void createUserNode (UserNode** userNode, User* userValue); // ✅
 void printUserList (UserNode* userNode, char* destination); // ✅
-int findElementInList (UserNode* userNode, int userId);
+int findElementInList (UserNode* userNode, int userId); // ✅
 void insertFirst (UserNode** userNode, User* userValue); // ✅
 void insertLast (UserNode *userNode, User* userValue); // ✅
-User* removeFirst (UserNode** userNode);
-User* removeLast (UserNode* userNode);
+User* removeFirst (UserNode** userNode); // ✅
+User* removeLast (UserNode* userNode); // ✅
 void deleteUserList (UserNode** userNode);
 
 #endif //MAIN_C_USER_LIST_H

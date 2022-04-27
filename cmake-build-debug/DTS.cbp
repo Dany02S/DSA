@@ -29,6 +29,7 @@
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/headers/models"/>
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/headers/queue"/>
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/headers/list"/>
+					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/headers/binary_search_tree"/>
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/shared/headers"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
@@ -54,6 +55,7 @@
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/headers/models"/>
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/headers/queue"/>
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/headers/list"/>
+					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/headers/binary_search_tree"/>
 					<Add directory="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/shared/headers"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
@@ -88,7 +90,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/headers/binary_search_tree/user_bst.h">
+			<Option target="DTS"/>
+		</Unit>
 		<Unit filename="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/headers/list/user_list.h">
+			<Option target="DTS"/>
+		</Unit>
+		<Unit filename="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/headers/manager/lab10.h">
 			<Option target="DTS"/>
 		</Unit>
 		<Unit filename="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/headers/manager/lab2.h">
@@ -130,7 +138,13 @@
 		<Unit filename="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/main.c">
 			<Option target="DTS"/>
 		</Unit>
+		<Unit filename="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/src/binary_search_tree/user_bst.c">
+			<Option target="DTS"/>
+		</Unit>
 		<Unit filename="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/src/list/user_list.c">
+			<Option target="DTS"/>
+		</Unit>
+		<Unit filename="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/src/manager/lab10.c">
 			<Option target="DTS"/>
 		</Unit>
 		<Unit filename="C:/Users/Dani/OneDrive/Documents/Sapi/DSA/sapi_sales/src/manager/lab2.c">

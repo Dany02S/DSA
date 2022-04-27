@@ -28,3 +28,7 @@ void lab8(){
 void lab9(){
     testUserList();
 }
+
+void lab10(){
+    binary_search_user_test();
+}

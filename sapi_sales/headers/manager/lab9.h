@@ -7,6 +7,6 @@
 
 #include "user_list.h"
 
-void testUserList();
+_Noreturn void testUserList();
 
 #endif //MAIN_C_LAB9_H

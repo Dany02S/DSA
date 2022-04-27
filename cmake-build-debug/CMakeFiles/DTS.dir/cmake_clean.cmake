@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DTS.dir/sapi_sales/main.c.obj"
   "CMakeFiles/DTS.dir/sapi_sales/main.c.obj.d"
+  "CMakeFiles/DTS.dir/sapi_sales/src/binary_search_tree/user_bst.c.obj"
+  "CMakeFiles/DTS.dir/sapi_sales/src/binary_search_tree/user_bst.c.obj.d"
   "CMakeFiles/DTS.dir/sapi_sales/src/list/user_list.c.obj"
   "CMakeFiles/DTS.dir/sapi_sales/src/list/user_list.c.obj.d"
+  "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab10.c.obj"
+  "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab10.c.obj.d"
   "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab2.c.obj"
   "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab2.c.obj.d"
   "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab3.c.obj"

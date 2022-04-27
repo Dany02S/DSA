@@ -44,5 +44,36 @@ void insertLast (UserNode *userNode, User* userValue){
     }
 }
 
+int findElementInList (UserNode* userNode, int userId){
+    UserNode  *p = userNode;
+    while (p != NULL){
+        if(p->userValue->Id == userId){
+            return userId;
+        }
+    }
+    return -1;
+}
+
+User* removeFirst (UserNode** userNode){
+
+}
+
+User* removeLast (UserNode* userNode){
+    UserNode *p = userNode;
+    while (p->next->next != NULL){
+        p = p->next;
+    }
+    free(p->next);
+    p->next = NULL;
+}
+
+void deleteUserList (UserNode** userNode){
+    UserNode *p = *userNode;
+    while (p->next != NULL){
+        removeLast(*userNode);
+    }
+    removeFirst(userNode);
+}
+
 
 
