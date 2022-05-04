@@ -43,9 +43,16 @@ void destroy (UserTreeNode** userTN){
 
 void inorderPrint (UserTreeNode* userTN, char* dest){
     freopen(dest, "r", stdout);
+    if(userTN == NULL){
 
+    }
 
 
     freopen("CON", "r", stdout);
 }
+
+User minimum (UserTreeNode* userTN){
+
+}
+User maximum (UserTreeNode*);
 

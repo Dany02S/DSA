@@ -128,6 +128,30 @@ DTS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/build
 .PHONY : DTS/fast
 
+sapi_sales/lab11/parc2fel.obj: sapi_sales/lab11/parc2fel.c.obj
+.PHONY : sapi_sales/lab11/parc2fel.obj
+
+# target to build an object file
+sapi_sales/lab11/parc2fel.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/lab11/parc2fel.c.obj
+.PHONY : sapi_sales/lab11/parc2fel.c.obj
+
+sapi_sales/lab11/parc2fel.i: sapi_sales/lab11/parc2fel.c.i
+.PHONY : sapi_sales/lab11/parc2fel.i
+
+# target to preprocess a source file
+sapi_sales/lab11/parc2fel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/lab11/parc2fel.c.i
+.PHONY : sapi_sales/lab11/parc2fel.c.i
+
+sapi_sales/lab11/parc2fel.s: sapi_sales/lab11/parc2fel.c.s
+.PHONY : sapi_sales/lab11/parc2fel.s
+
+# target to generate assembly for a file
+sapi_sales/lab11/parc2fel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/lab11/parc2fel.c.s
+.PHONY : sapi_sales/lab11/parc2fel.c.s
+
 sapi_sales/main.obj: sapi_sales/main.c.obj
 .PHONY : sapi_sales/main.obj
 
@@ -223,6 +247,30 @@ sapi_sales/src/manager/lab10.s: sapi_sales/src/manager/lab10.c.s
 sapi_sales/src/manager/lab10.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/src/manager/lab10.c.s
 .PHONY : sapi_sales/src/manager/lab10.c.s
+
+sapi_sales/src/manager/lab11.obj: sapi_sales/src/manager/lab11.c.obj
+.PHONY : sapi_sales/src/manager/lab11.obj
+
+# target to build an object file
+sapi_sales/src/manager/lab11.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/src/manager/lab11.c.obj
+.PHONY : sapi_sales/src/manager/lab11.c.obj
+
+sapi_sales/src/manager/lab11.i: sapi_sales/src/manager/lab11.c.i
+.PHONY : sapi_sales/src/manager/lab11.i
+
+# target to preprocess a source file
+sapi_sales/src/manager/lab11.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/src/manager/lab11.c.i
+.PHONY : sapi_sales/src/manager/lab11.c.i
+
+sapi_sales/src/manager/lab11.s: sapi_sales/src/manager/lab11.c.s
+.PHONY : sapi_sales/src/manager/lab11.s
+
+# target to generate assembly for a file
+sapi_sales/src/manager/lab11.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DTS.dir\build.make CMakeFiles/DTS.dir/sapi_sales/src/manager/lab11.c.s
+.PHONY : sapi_sales/src/manager/lab11.c.s
 
 sapi_sales/src/manager/lab2.obj: sapi_sales/src/manager/lab2.c.obj
 .PHONY : sapi_sales/src/manager/lab2.obj
@@ -569,6 +617,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DTS
+	@echo ... sapi_sales/lab11/parc2fel.obj
+	@echo ... sapi_sales/lab11/parc2fel.i
+	@echo ... sapi_sales/lab11/parc2fel.s
 	@echo ... sapi_sales/main.obj
 	@echo ... sapi_sales/main.i
 	@echo ... sapi_sales/main.s
@@ -581,6 +632,9 @@ help:
 	@echo ... sapi_sales/src/manager/lab10.obj
 	@echo ... sapi_sales/src/manager/lab10.i
 	@echo ... sapi_sales/src/manager/lab10.s
+	@echo ... sapi_sales/src/manager/lab11.obj
+	@echo ... sapi_sales/src/manager/lab11.i
+	@echo ... sapi_sales/src/manager/lab11.s
 	@echo ... sapi_sales/src/manager/lab2.obj
 	@echo ... sapi_sales/src/manager/lab2.i
 	@echo ... sapi_sales/src/manager/lab2.s
