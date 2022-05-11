@@ -22,32 +22,32 @@ PERS * input(){
     freopen("CON", "r", stdin);
 }
 
-void createPers (PERS** pers, char* name, int stam){
-    (*pers) = (PERS*)malloc(sizeof (PERS));
-    (*pers)->next = NULL;
-    strcpy(dat)
-    (*pers)->satmina =
+//void createPers (PERS** pers, char* name, int stam){
+//    (*pers) = (PERS*)malloc(sizeof (PERS));
+//    (*pers)->next = NULL;
+//    strcpy(dat)
+//    (*pers)->satmina =
+//
+//
+//}
 
+//void deleteUserList (PERS** pers){
+//    PERS *p = *pers;
+//    while (p->next != NULL){
+//        removeLast(*userNode);
+//    }
+//    removeFirst(userNode);
+//}
 
-}
-
-void deleteUserList (PERS** pers){
-    PERS *p = *pers;
-    while (p->next != NULL){
-        removeLast(*userNode);
-    }
-    removeFirst(userNode);
-}
-
-void insertLast (PERS *pers, DATA* data){
-    PERS *p = pers;
-    while(p != NULL){
-        if(p->next == NULL){
-            PERS *new;
-            createPers(&new, data);
-            p->next = new;
-            break;
-        }
-        p = p->next;
-    }
-}
+//void insertLast (PERS *pers, DATA* data){
+//    PERS *p = pers;
+//    while(p != NULL){
+//        if(p->next == NULL){
+//            PERS *new;
+//            createPers(&new, data);
+//            p->next = new;
+//            break;
+//        }
+//        p = p->next;
+//    }
+//}

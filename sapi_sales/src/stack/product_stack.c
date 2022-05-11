@@ -7,7 +7,7 @@
 
 void createProductStack (ProductStack **productStack, unsigned int capacity){
     *productStack = (ProductStack*) malloc(sizeof (ProductStack));
-    (*productStack)->products = (Product**)malloc(capacity* sizeof (Product*));
+    (*productStack)->products = (Product **)malloc(capacity * sizeof (Product *));
     (*productStack)->capacity = capacity;
     (*productStack)->top = 0;
 }
@@ -29,7 +29,7 @@ void pop(ProductStack *productStack){
     }
 }
 
-Product* top (ProductStack *productStack){
+Product * top (ProductStack *productStack){
     if(stackIsEmpty(productStack)){
         printf("\nEmpty stack!");
         return NULL;

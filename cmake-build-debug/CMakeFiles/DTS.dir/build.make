@@ -368,6 +368,36 @@ CMakeFiles/DTS.dir/sapi_sales/src/manager/lab11.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DTS.dir/sapi_sales/src/manager/lab11.c.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Dani\OneDrive\Documents\Sapi\DSA\sapi_sales\src\manager\lab11.c -o CMakeFiles\DTS.dir\sapi_sales\src\manager\lab11.c.s
 
+CMakeFiles/DTS.dir/sapi_sales/src/manager/lab12.c.obj: CMakeFiles/DTS.dir/flags.make
+CMakeFiles/DTS.dir/sapi_sales/src/manager/lab12.c.obj: CMakeFiles/DTS.dir/includes_C.rsp
+CMakeFiles/DTS.dir/sapi_sales/src/manager/lab12.c.obj: ../sapi_sales/src/manager/lab12.c
+CMakeFiles/DTS.dir/sapi_sales/src/manager/lab12.c.obj: CMakeFiles/DTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Dani\OneDrive\Documents\Sapi\DSA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/DTS.dir/sapi_sales/src/manager/lab12.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DTS.dir/sapi_sales/src/manager/lab12.c.obj -MF CMakeFiles\DTS.dir\sapi_sales\src\manager\lab12.c.obj.d -o CMakeFiles\DTS.dir\sapi_sales\src\manager\lab12.c.obj -c C:\Users\Dani\OneDrive\Documents\Sapi\DSA\sapi_sales\src\manager\lab12.c
+
+CMakeFiles/DTS.dir/sapi_sales/src/manager/lab12.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DTS.dir/sapi_sales/src/manager/lab12.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Dani\OneDrive\Documents\Sapi\DSA\sapi_sales\src\manager\lab12.c > CMakeFiles\DTS.dir\sapi_sales\src\manager\lab12.c.i
+
+CMakeFiles/DTS.dir/sapi_sales/src/manager/lab12.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DTS.dir/sapi_sales/src/manager/lab12.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Dani\OneDrive\Documents\Sapi\DSA\sapi_sales\src\manager\lab12.c -o CMakeFiles\DTS.dir\sapi_sales\src\manager\lab12.c.s
+
+CMakeFiles/DTS.dir/sapi_sales/src/hash/product_hash.c.obj: CMakeFiles/DTS.dir/flags.make
+CMakeFiles/DTS.dir/sapi_sales/src/hash/product_hash.c.obj: CMakeFiles/DTS.dir/includes_C.rsp
+CMakeFiles/DTS.dir/sapi_sales/src/hash/product_hash.c.obj: ../sapi_sales/src/hash/product_hash.c
+CMakeFiles/DTS.dir/sapi_sales/src/hash/product_hash.c.obj: CMakeFiles/DTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Dani\OneDrive\Documents\Sapi\DSA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/DTS.dir/sapi_sales/src/hash/product_hash.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DTS.dir/sapi_sales/src/hash/product_hash.c.obj -MF CMakeFiles\DTS.dir\sapi_sales\src\hash\product_hash.c.obj.d -o CMakeFiles\DTS.dir\sapi_sales\src\hash\product_hash.c.obj -c C:\Users\Dani\OneDrive\Documents\Sapi\DSA\sapi_sales\src\hash\product_hash.c
+
+CMakeFiles/DTS.dir/sapi_sales/src/hash/product_hash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DTS.dir/sapi_sales/src/hash/product_hash.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Dani\OneDrive\Documents\Sapi\DSA\sapi_sales\src\hash\product_hash.c > CMakeFiles\DTS.dir\sapi_sales\src\hash\product_hash.c.i
+
+CMakeFiles/DTS.dir/sapi_sales/src/hash/product_hash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DTS.dir/sapi_sales/src/hash/product_hash.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Dani\OneDrive\Documents\Sapi\DSA\sapi_sales\src\hash\product_hash.c -o CMakeFiles\DTS.dir\sapi_sales\src\hash\product_hash.c.s
+
 # Object files for target DTS
 DTS_OBJECTS = \
 "CMakeFiles/DTS.dir/sapi_sales/main.c.obj" \
@@ -389,7 +419,9 @@ DTS_OBJECTS = \
 "CMakeFiles/DTS.dir/sapi_sales/src/binary_search_tree/user_bst.c.obj" \
 "CMakeFiles/DTS.dir/sapi_sales/src/manager/lab10.c.obj" \
 "CMakeFiles/DTS.dir/sapi_sales/lab11/parc2fel.c.obj" \
-"CMakeFiles/DTS.dir/sapi_sales/src/manager/lab11.c.obj"
+"CMakeFiles/DTS.dir/sapi_sales/src/manager/lab11.c.obj" \
+"CMakeFiles/DTS.dir/sapi_sales/src/manager/lab12.c.obj" \
+"CMakeFiles/DTS.dir/sapi_sales/src/hash/product_hash.c.obj"
 
 # External object files for target DTS
 DTS_EXTERNAL_OBJECTS =
@@ -414,11 +446,13 @@ DTS.exe: CMakeFiles/DTS.dir/sapi_sales/src/binary_search_tree/user_bst.c.obj
 DTS.exe: CMakeFiles/DTS.dir/sapi_sales/src/manager/lab10.c.obj
 DTS.exe: CMakeFiles/DTS.dir/sapi_sales/lab11/parc2fel.c.obj
 DTS.exe: CMakeFiles/DTS.dir/sapi_sales/src/manager/lab11.c.obj
+DTS.exe: CMakeFiles/DTS.dir/sapi_sales/src/manager/lab12.c.obj
+DTS.exe: CMakeFiles/DTS.dir/sapi_sales/src/hash/product_hash.c.obj
 DTS.exe: CMakeFiles/DTS.dir/build.make
 DTS.exe: CMakeFiles/DTS.dir/linklibs.rsp
 DTS.exe: CMakeFiles/DTS.dir/objects1.rsp
 DTS.exe: CMakeFiles/DTS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Dani\OneDrive\Documents\Sapi\DSA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable DTS.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Dani\OneDrive\Documents\Sapi\DSA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable DTS.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DTS.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

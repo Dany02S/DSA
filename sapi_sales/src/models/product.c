@@ -18,7 +18,7 @@ char *getProductType(enum PType type){
 }
 
 void createProduct(Product **product){
-    *product = (Product*)malloc(1*sizeof(Product));
+    *product = (Product *)malloc(1 * sizeof(Product));
 }
 
 void deleteProduct(Product **product){

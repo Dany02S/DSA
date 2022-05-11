@@ -30,7 +30,7 @@ void testUserFunctionalities(){
 }
 
 void testProductFunctionalities(){
-    Product *prod1, *prod2;
+    User *prod1, *prod2;
 
     createProduct(&prod1);
     createProduct(&prod2);

@@ -32,3 +32,7 @@ void lab9(){
 void lab10(){
     binary_search_user_test();
 }
+
+void lab12(){
+    testHash();
+}

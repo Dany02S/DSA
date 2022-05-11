@@ -25,7 +25,7 @@ void clearProducts(ProductArray *productArray){
     }
 }
 
-bool addNewProduct(ProductArray *productArray, Product* newProduct){
+bool addNewProduct(ProductArray *productArray, Product * newProduct){
     printf("%i\n", productArray->numOfProducts);
     printf("%i", productArray->Capacity);
     if(productArray->numOfProducts < productArray->Capacity) {

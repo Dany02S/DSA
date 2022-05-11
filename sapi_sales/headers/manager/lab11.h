@@ -20,9 +20,9 @@ typedef struct {
 
 PERS * input();
 
-void createPers (PERS ** Pers, DATA* data); // ✅
-void insertLast (PERS *pers, DATA* data); // ✅
-void deleteUserList (PERS ** pers);
+//void createPers (PERS ** Pers, DATA* data); // ✅
+//void insertLast (PERS *pers, DATA* data); // ✅
+//void deleteUserList (PERS ** pers);
 
 
 #endif //MAIN_C_LAB11_H
